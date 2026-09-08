@@ -137,10 +137,44 @@
           gap: 0.5rem;
         }
       }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .name-title {
+        font-size: 1.5rem;
+        color: #333;
+        text-decoration: none;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 2rem;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #666;
+        transition: color 0.3s;
+      }
+
+      .nav-links a:hover {
+        color: #2196f3;
+      }
     </style>
   </head>
   <body>
     <div class="container">
+      <nav aria-label="Main navigation">
+        <a href="index.html" class="name-title">Jackson Clark</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html" aria-current="page">Projects</a>
+        </div>
+      </nav>
       <h2>Projects</h2>
 
       <!-- Financial Services Website -->
@@ -163,7 +197,7 @@
           <div class="skills-grid">
             <span class="skill-tag">React</span>
             <span class="skill-tag">Next.js</span>
-            <span class="skill-tag">Tailwind</span>
+            <span class="skill-tag">Tailwind CSS</span>
             <span class="skill-tag">Web Development</span>
           </div>
         </div>
