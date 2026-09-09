@@ -13,7 +13,3 @@ https://jaxwc.github.io/CS3365_Portfolio/
 ## View Locally
 
 Clone this repository and open `index.html` in your browser. No installation or build step is required.
-
-## Credits
-
-Based on the [class template](https://github.com/MaazAmjad/create_website).
